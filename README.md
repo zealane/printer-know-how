@@ -15,6 +15,4 @@
 - [OpenPrinting](https://openprinting.github.io/)
 
     - OpenPrinting develops IPP-based printing technology for Linux®/Unix® operating systems
-
-
     - Most modern printers work using OpenPrinting software without additional drivers or software.

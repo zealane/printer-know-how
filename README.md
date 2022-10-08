@@ -20,7 +20,7 @@
 
   IPP是Internet Printing Protocol的缩写，于1999-2005年之间发布的一套标准，应用于互联网打印、移动打印，云打印，也适用于3D打印。
 
-- [IPP Everywhere](ipp\IPP-Everywhere.md)
+- [IPP Everywhere](./ipp/IPP-Everywhere.md)
 
 ​     IPP Everywhere是于2013年公开，它允许个人电脑和移动设备发现打印机，将文件打印到网络打印机或USB打印机，而无需使用厂家的驱动软件。该协议成为了免驱打印的通用标准。
 

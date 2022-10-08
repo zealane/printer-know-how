@@ -16,7 +16,7 @@
 
   LPD是The Line Printer Daemon的缩写。最初于二十世纪八十年代在Berkeley Unix中引入的。LPD运行在端口515/tcp上，可以使用lpr命令访问。LPRng是类UNIX操作系统下的一个流行的LPD应用。
 
-- [IPP](master\ipp\ipp-firstpage.md)
+- [IPP](.\ipp\ipp-firstpage.md)
 
   IPP是Internet Printing Protocol的缩写，于1999-2005年之间发布的一套标准，应用于互联网打印、移动打印，云打印，也适用于3D打印。
 

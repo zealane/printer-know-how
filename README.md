@@ -2,9 +2,20 @@
 
 ## 引擎（Engine）
 
+## 硬件
+
+
+
 
 
 ## 控制（Controller）
+
+
+
+## 打印控制语言（Printer  Control Language）
+- PJL
+
+​       PJL是Printer Control Language的缩写。最初由HP公司推出，用于更改打印机纸盒、尺寸等设置。
 
 
 

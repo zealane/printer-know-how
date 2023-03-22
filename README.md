@@ -33,24 +33,33 @@
 
 - [IPP Everywhere](./ipp/IPP-Everywhere.md)
 
-​     IPP Everywhere是于2013年公开，它允许个人电脑和移动设备发现打印机，将文件打印到网络打印机或USB打印机，而无需使用厂家的驱动软件。该协议成为了免驱打印的通用标准。
+  IPP Everywhere是于2013年公开，它允许个人电脑和移动设备发现打印机，将文件打印到网络打印机或USB打印机，而无需使用厂家的驱动软件。该协议成为了免驱打印的通用标准。
 
 - SNMP
 
-​    SNMP 全称为Simple Network Management Protocol，是简单网络管理协议，由互联网工程任务组（IETF：Internet Engineering Task Force ）定义的一套网络管理协议。该协议用于获取打印机设备状态，如查看是否卡纸、是否没粉等，服务器也可以主动接受打印机发送的SNMP信息。
+  SNMP 全称为Simple Network Management Protocol，是简单网络管理协议，由互联网工程任务组（IETF：Internet Engineering Task Force ）定义的一套网络管理协议。该协议用于获取打印机设备状态，如查看是否卡纸、是否没粉等，服务器也可以主动接受打印机发送的SNMP信息。
 
 
 
-## Software
+## 软件/应用（Software）
 
 - [OpenPrinting](https://openprinting.github.io/)
-    - OpenPrinting develops IPP-based printing technology for Linux®/Unix® operating systems
-    - Most modern printers work using OpenPrinting software without additional drivers or software.
+    - OpenPrinting 在Linux/Unix操作系统下开发基于IPP的打印技术。
+    - 大多数现代的打印机不需要额外的驱动和软件就能通过OpenPrinting工作。
 
 - [LPRng](http://www.lprng.com/)
     - The LPRng software is an enhanced, extended, and portable implementation of the Berkeley LPR print spooler functionality. 
 - LPRngTool
     - LPRngTool is a Graphical User Interface for the monitoring and configuration of the LPRng printing system. 
+- [ippsample](https://github.com/istopwg/ippsample)
+    - ippsample 用于模拟一台ipp打印机，是一种功能全面，开源的IPP-2.2和IPP Everywhere兼容打印机模拟器。当你想测试IPP应该具有的功能时，这个项目应该很有帮助。
 
-## Security of Printer
+## 打印机安全（Security of Printer）
 
+- [PIDS](https://github.com/Hechtov/PIDS_A_Printer_IDS_Research)
+  - PIDS全称是Printer Intrusion Detect Systems，即打印机入侵检测系统。PIDS从打印协议产生的流量中获得攻击的信息，对各种打印机的协议攻击进行记录，并且采用各种监督机器学习，讲收集到的数据分类为正常或恶意，以获得最佳效果。
+
+- [攻击打印机网站](http://hacking-printers.net/wiki/index.php/Main_Page)
+  - 该网站收集了很多打印机安全相关的资料，包括攻击方法、打印机安全分析等等，很有帮助。
+- [PRET(Printer  Exploitation Toolkit) ](https://github.com/mlynchcogent/PRET)
+  - PRET是一种用于打印机安全测试的新工具。它通过网络或 USB 连接到设备，并利用给定打印机语言的功能操纵打印机，访问打印机的内存或文件系统，甚至对打印机造成破坏。
